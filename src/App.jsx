@@ -1,4 +1,4 @@
-import Totem from './page/Totem';
+import Totem from './pages/Totem';
 import './App.module.css';
 
 function App() {

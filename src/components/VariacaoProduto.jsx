@@ -57,5 +57,4 @@ export default function VariacaoProduto({ produtoAtivo, selecionarVariacao, exec
       </div>
     </div>
   );
-  
 }
