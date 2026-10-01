@@ -1,9 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from './TelaResumo.module.css';
+import styles from '../page/totemResumo.module.css';
 import ResumoItemLinha from '../components/ResumoItemLinha';
 
-export default function TelaResumo({ carrinho, setCarrinho, executarComAtraso, setItemParaModificar, setIndiceModificacao }) {
+export default function TotemResumo({ carrinho, setCarrinho, executarComAtraso, setItemParaModificar, setIndiceModificacao }) {
   const navegar = useNavigate();
   const totalCarrinho = carrinho.reduce((acc, item) => acc + (item.price * item.quantity), 0);
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from './TelaSplash.module.css';
+import styles from './TotemSplash.module.css';
 
-export default function TelaSplash({ executarComAtraso }) {
+export default function TotemSplash({ executarComAtraso }) {
   const navegar = useNavigate();
   return (
-    <div className={styles["tela-splash"]} onClick={() => executarComAtraso(() => navegar('/local'))}>
+    <div className={styles["Totem-splash"]} onClick={() => executarComAtraso(() => navegar('/local'))}>
       <div className={styles["banner-placeholder"]}>
         Banner Promocional
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from './TelaModificarItem.module.css';
+import styles from './TotemModificarItem.module.css';
 
 export default function TelaModificarItem({
   itemParaModificar, setItemParaModificar, indiceModificacao, carrinho, setCarrinho, executarComAtraso
